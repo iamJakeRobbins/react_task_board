@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+import './style/App.css';
+import './style/tasks.css';
 import SampleTask from './components/task.js';
 
 function App() {
