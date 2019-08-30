@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+
+.new_task {
+	background-color: white;
+	height: 150px;
+	width: 300px;
+	color: #282c34;
+	border: 2px solid blue;
+	border-radius: 25px;
+}
