@@ -3,8 +3,10 @@ import React, {Component} from 'react';
 const SampleTask = () => {
 	let template =
 	<div class="new_task">
-		<span> this will be a task </span>
-	</div>
+		<p> task title</p>
+		<p> styling extremely pending</p>
+	</div>;
+
 	return template
 };
 
