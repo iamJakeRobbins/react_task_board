@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 class Column extends Component{
   render(){
-    return();
+    return(
+      <div></div>
+    );
   }
 }
 export default Column;

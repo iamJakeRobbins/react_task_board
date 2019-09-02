@@ -15,9 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        <div>
-          Hello from the landing page, This will hold some simple styling and a login modal.
-        </div>
+        <Login />
         <div>
           This Styling will include a cool little slide transition once a user logs in, This will bring up their board.
         </div>
