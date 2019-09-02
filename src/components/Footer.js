@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-class Login extends Component{
+class Footer extends Component{
   render(){
     return();
   }
 }
-export default Login;
+export default Footer;
