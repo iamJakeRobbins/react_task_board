@@ -27,7 +27,7 @@ toggleMenu() {
 }
 
   render(){
-		var visibility = "hide";
+		let visibility = "hide";
 
 	 if (this.state.visible) {
 		 visibility = "show";
