@@ -16,6 +16,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+				<SideMenu />
         <Login />
         <div>
           This Styling will include a cool little slide transition once a user logs in, This will bring up their board.
