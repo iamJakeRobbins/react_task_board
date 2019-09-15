@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 class SideMenu extends Component{
 	constructor(props, context) {
@@ -33,7 +34,7 @@ toggleMenu() {
 				<button onClick={this.handleMouseDown}>boop</button>
 			</div>
 				<ul>
-					<li><button>My Home Page</button></li>
+					<li><Link to="/userHome">My Home Page</Link></li>
 					<li><button>Add Column</button></li>
 					<li><button>Add Button</button></li>
 				</ul>

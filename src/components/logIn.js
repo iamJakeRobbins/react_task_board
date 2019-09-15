@@ -15,6 +15,10 @@ class Login extends Component{
             Submit
           </button>
         </form>
+				<div>
+					This Styling will include a cool little slide transition once a user logs in, This will bring up their board.
+				</div>
+				<p> app content begins  </p>
       </div>
     );
   }
