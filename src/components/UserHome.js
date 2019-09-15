@@ -4,8 +4,8 @@ class UserHome extends Component{
 
   render(){
     return(
-      <div id="userHome">
-				<h2>we have a route here</h2>
+      <div id="userHome" className="container">
+				<p className="noMargin">our route works and we landed here</p>
 			</div>
     );
   }
