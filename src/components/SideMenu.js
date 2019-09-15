@@ -37,6 +37,7 @@ toggleMenu() {
 					<li><Link to="/userHome">My Home Page</Link></li>
 					<li><button>Add Column</button></li>
 					<li><button>Add Button</button></li>
+					<li><Link to="/"> Log Out </Link></li>
 				</ul>
 			</div>
     );
