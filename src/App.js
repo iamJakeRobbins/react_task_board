@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './style/App.css';
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Column from './components/Column';
