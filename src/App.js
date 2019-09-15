@@ -9,21 +9,21 @@ import Header from './components/Header';
 import Login from './components/Login';
 import Task from './components/Task';
 import SideMenu from './components/SideMenu';
+import UserHome from './components/UserHome';
 
 
 class App extends Component {
   render(){
     return (
-      <div className="App">
-        <header className="App-header">
-				<SideMenu />
-        <Login />
-        <div>
-          This Styling will include a cool little slide transition once a user logs in, This will bring up their board.
-        </div>
-        <p> app content begins  </p>
-        </header>
-      </div>
+			<BrowserRouter>
+	      <div className="App">
+					<SideMenu />
+					<Switch>
+						<Route exact path='/' component={Login}/>
+						<Route exact path='/userHome' component={UserHome}/>
+					</Switch>
+	      </div>
+			</BrowserRouter>
     );
   }
 }
