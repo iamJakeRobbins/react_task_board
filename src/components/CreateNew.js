@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-class Column extends Component{
+class CreateNew extends Component{
   render(){
     return(
       <div></div>
     );
   }
 }
-export default Column;
+export default CreateNew;
