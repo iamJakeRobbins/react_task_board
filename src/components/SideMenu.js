@@ -15,7 +15,6 @@ class SideMenu extends Component{
 handleMouseDown(e) {
 	this.toggleMenu();
 
-	console.log("clicked");
 	e.stopPropagation();
 }
 
@@ -23,24 +22,20 @@ toggleMenu() {
   this.setState({
       visible: !this.state.visible
   });
-	console.log(this.state)
 }
 
   render(){
-		let visibility = "hide";
+		let visibility = this.state.visible ? 'show' : 'hide';
 
-	 if (this.state.visible) {
-		 visibility = "show";
-	 }
     return(
       <div id="sideMenu" className={visibility}>
 			<div id="controlSideMenu">
-				<button onMouseDown={this.handleMouseDown}>boop</button>
+				<button onClick={this.handleMouseDown}>boop</button>
 			</div>
 				<ul>
-					<li>My HomePage</li>
-					<li>Add Column</li>
-					<li>Add Button</li>
+					<li><button>My Home Page</button></li>
+					<li><button>Add Column</button></li>
+					<li><button>Add Button</button></li>
 				</ul>
 			</div>
     );
