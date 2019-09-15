@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Login extends Component{
   render(){
     return(
-      <div>
+      <div className="container">
         <form>
 					<div>
 						<input type="text" id="userName" placeholder="Enter User Name"></input>
